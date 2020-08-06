@@ -7,7 +7,7 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title1234ds = models.CharField(max_length=150, null=True, blank=True,)
+    title1234ds = models.BinaryField(max_length=150, null=True, blank=True,)
     test444 = models.BigIntegerField(null=True, blank=True,)
     test5 = models.BigIntegerField(null=True, blank=True,)
     nameChanged = models.CharField(null=True, blank=True, max_length=256,)
