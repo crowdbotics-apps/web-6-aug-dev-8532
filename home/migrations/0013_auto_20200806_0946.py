@@ -6,28 +6,22 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0012_auto_20200806_0942'),
+        ("home", "0012_auto_20200806_0942"),
     ]
 
     operations = [
         migrations.RenameField(
-            model_name='customtext',
-            old_name='nameChanged',
-            new_name='nameChangedAgain',
+            model_name="customtext",
+            old_name="nameChanged",
+            new_name="nameChangedAgain",
         ),
         migrations.RenameField(
-            model_name='customtext',
-            old_name='test444',
-            new_name='test12',
+            model_name="customtext", old_name="test444", new_name="test12",
         ),
         migrations.RenameField(
-            model_name='customtext',
-            old_name='test5',
-            new_name='test54',
+            model_name="customtext", old_name="test5", new_name="test54",
         ),
         migrations.RenameField(
-            model_name='customtext',
-            old_name='title1234ds',
-            new_name='title',
+            model_name="customtext", old_name="title1234ds", new_name="title",
         ),
     ]
